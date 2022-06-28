@@ -18,7 +18,7 @@ function App() {
     <ThemeProvider theme={lightTheme}>
 
       <Routes>
-        <Route  path="/" element={<Main />} />
+        <Route  index element={<Main />} />
         <Route  path="/about" element={<AboutPage />} />
         <Route  path="/blog" element={<Blogpage />} />
         <Route  path="/work" element={<WorkPage />} />

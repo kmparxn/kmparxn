@@ -124,6 +124,22 @@ const BottomBar = styled.div`
   right: 0;
   width: 100%;
 
+  ${mediaQueries(50)`
+      bottom: 2rem;
+  `};
+
+  ${mediaQueries(40)`
+      bottom: 2rem;
+  `};
+
+  ${mediaQueries(30)`
+      bottom: 2rem;
+
+  `};
+  ${mediaQueries(20)`
+      bottom: 2rem;
+ `};
+  
   display: flex;
   justify-content: space-evenly;
 `;
