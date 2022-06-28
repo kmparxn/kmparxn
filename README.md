@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Updating My Portfolio with React JS using Styled-Components and framer-motion for awesome Animations
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains Final code for The Portfolio Website in ReactJS.
+
+View Demo👇:
+
+[https://react-portfolio-sigma.vercel.app/
+](https://kmparxn-kmparxn.vercel.app/)
 
 ## Available Scripts
 
