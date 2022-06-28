@@ -125,19 +125,19 @@ const BottomBar = styled.div`
   width: 100%;
 
   ${mediaQueries(50)`
-      bottom: 2rem;
+      bottom: 3rem;
   `};
 
   ${mediaQueries(40)`
-      bottom: 2rem;
+      bottom: 3rem;
   `};
 
   ${mediaQueries(30)`
-      bottom: 2rem;
+      bottom: 3rem;
 
   `};
   ${mediaQueries(20)`
-      bottom: 2rem;
+      bottom: 3rem;
  `};
   
   display: flex;
