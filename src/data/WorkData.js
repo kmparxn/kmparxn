@@ -1,18 +1,18 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"dddd with React JS",
+        description:"Updating My Portfolio with React JS using Styled-Components and framer-motion for awesome Animations",
+        tags:["react","framer-motion","styledComponents"],
         
         demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        github:"https://github.com/kmparxn/kmparxn.git"
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        name:"Landing Page",
+        description:"A landing page website build in JS",
+        tags:["JS"],
         
         demo:"http://react-job-listing-website.codebucks27.vercel.app/",
         github:"https://github.com/codebucks27/react-job-listing-website"

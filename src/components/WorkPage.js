@@ -12,9 +12,9 @@ import LogoComponent from '../subComponents/LogoComponent'
 import SocialIcons from '../subComponents/SocialIcons'
 import PowerButton from '../subComponents/PowerButton'
 import BigTitle from '../subComponents/BigTitle';
+import ParticlesComponent3 from "../subComponents/ParticlesComponent3";
 
 const Box = styled(motion.div)`
-  background-color: ${(props) => props.theme.body};
   position: relative;
   display: flex;
   height: 400vh;
@@ -30,6 +30,7 @@ const Main = styled(motion.ul)`
   //border:1px solid white;
 
   display: flex;
+  z-index: 1;
 
   ${mediaQueries(50)`
         
@@ -126,6 +127,7 @@ const WorkPage = () => {
           animate={{ opacity: 1, transition: { duration: 1 } }}
           exit={{ opacity: 0, transition: { duration: 0.5 } }}
         >
+          <ParticlesComponent3 />
           <LogoComponent theme="dark" />
           <PowerButton />
           <SocialIcons theme="dark" />

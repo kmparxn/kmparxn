@@ -1,18 +1,18 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"Portfolio React JS",
+        description:"Updating My Portfolio with React JS using Styled-Components and framer-motion for awesome Animations",
+        tags:["react","framer-motion","styled-components"],
         
         demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        github:"https://github.com/kmparxn/kmparxn.git{--"
     },
     {
         id:2,
-        name:"Job listing website",
+        name:"Landing Page",
         description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        tags:["JS","styled-components"],
         
         demo:"http://react-job-listing-website.codebucks27.vercel.app/",
         github:"https://github.com/codebucks27/react-job-listing-website"
@@ -20,9 +20,9 @@ export const Work = [
     },
     {
         id:3,
-        name:"Dev.to Clone",
+        name:"Processing images with python and OpenCV",
         description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
+        tags:["cv2","speech_recognition","pytesseract","googletrans"],
         
         demo:"http://devto-clone-codebucks27.vercel.app/",
         github:"https://github.com/codebucks27/devto-clone"
@@ -34,7 +34,7 @@ export const Work = [
         tags:["react","styledComponents","react-router"],
         
         demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
+        github:""
        
     },{
         id:5,
@@ -43,17 +43,17 @@ export const Work = [
         tags:["react","redux","framer-motion"],
         
         demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
+        github:""
         
     },
     {
         id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
+        name:"Job listing website",
+        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
+        tags:["react","sass"],
         
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
+        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
+        github:""
         
     },
     

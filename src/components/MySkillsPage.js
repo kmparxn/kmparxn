@@ -158,29 +158,7 @@ const MySkillsPage = () => {
 
           <Main>
             <Title>
-              <Design width={40} height={40} /> Designer
-            </Title>
-            <Description>
-              I love to create design which speaks, Keep it clean, minimal and
-              simple.
-            </Description>
-            <Description>
-              <strong>I like to Design</strong> <br />
-              <ul>
-                <li>Web Design</li>
-                <li>Mobile Apps</li>
-              </ul>
-            </Description>
-            <Description>
-              <strong>Tools</strong> <br />
-              <ul>
-                <li>Figma</li>
-              </ul>
-            </Description>
-          </Main>
-          <Main>
-            <Title>
-              <Develope width={40} height={40} /> Frontend Developer
+              <Develope width={40} height={40} /> Front-end 
             </Title>
             <Description>
               I value business or brand for which i'm creating, thus i enjoy
@@ -189,13 +167,31 @@ const MySkillsPage = () => {
             <Description>
               <strong>Skills</strong> <br />
               <p>
-                Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase
-                etc.
+                Html, Css, Js, React, Styled-Components, Framer Motion
               </p>
             </Description>
             <Description>
               <strong>Tools</strong> <br />
               <p>VScode, Github, Codepen etc.</p>
+            </Description>
+          </Main>
+          <Main>
+            <Title>
+              <Develope width={40} height={40} /> Back-end
+            </Title>
+            <Description>
+            I have a excelent problem solving skills and have the ability to
+            technically troubleshoot the issues/problems independently and provide solution
+            </Description>
+            <Description>
+              <strong>Skills</strong> <br />
+              <p>
+                C, C++, C#, Python, SQl, Node JS
+              </p>
+            </Description>
+            <Description>
+              <strong>Tools</strong> <br />
+              <p>VScode, Github, Git etc.</p>
             </Description>
           </Main>
           <BigTitle text="Skills" top="80%" right="30%" />

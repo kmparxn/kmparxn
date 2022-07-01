@@ -8,7 +8,7 @@ import LogoComponent from '../subComponents/LogoComponent'
 import SocialIcons from '../subComponents/SocialIcons'
 import PowerButton from '../subComponents/PowerButton'
 import BigTitle from '../subComponents/BigTitle';
-import ParticlesComponent from '../subComponents/ParticlesComponent';
+import ParticlesComponent2 from '../subComponents/ParticlesComponent2';
 
 const Box = styled(motion.div)`
   background-color: ${(props) => props.theme.body};
@@ -34,6 +34,7 @@ width:20vw;
     width:100%;
     height:auto;
   }
+  z-index: 1;
 `
 const Main = styled(motion.div)`
   border: 2px solid ${(props) => props.theme.text};
@@ -91,7 +92,7 @@ const AboutPage = () => {
           <LogoComponent theme='dark' />
           <PowerButton />
           <SocialIcons theme='dark' />
-
+          <ParticlesComponent2 />
           <SpaceMan
             initial={{ right: '-20%', top: '100%' }}
             animate={{
@@ -104,15 +105,17 @@ const AboutPage = () => {
           <Main
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 1, delay: 1 } }}>
-            I'm a developer located in Colombia. I love to create, design, develop
-            beautiful websites and projects with great user experience.
+            I'm a Software Developer located in Colombia, I have a Technology Degree in Software Development
+            and I've studied 6 semesters in Telecommunications Engineering.
+            I love to create, design, develop
+            beautiful projects, websites, apps with great user experience.
             <br />
             <br />
-            I'm interested in the whole frontend stack Like trying new things
-            and building great projects. I'm an independent freelancer and
-            blogger. I love to write blogs and read books. <br />
-            <br />I believe everything is an Art when you put your consciousness
-            in it. You can connect with me via social links.{' '}
+            Since beginning my journey as software developer,
+             I’ve done remote work for agencies, consulted for startups, and collaborated 
+             with talented people to create projects and products for both business and consumer use.
+             I love to play Video games, Basketball, Work out, Learn lenguages. <br />
+            {' '}
           </Main>
           <BigTitle text='ABOUT' top='10%' left='5%' />
         </Box>

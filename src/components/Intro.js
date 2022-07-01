@@ -131,7 +131,7 @@ const SubBox = styled.div`
 
       .pic {
     
-    width: 75%;
+    width: 100%;
     
   }
 
@@ -141,7 +141,7 @@ const SubBox = styled.div`
 
      .pic {
    
-   width: 80%;
+   width: 100%;
    
  }
 
@@ -154,7 +154,7 @@ const Text = styled(motion.div)`
   padding: 2rem;
   cursor: pointer;
 
-  display: flex;
+  display: inline;
   flex-direction: column;
   justify-content: space-evenly;
 
@@ -179,8 +179,18 @@ const Text = styled(motion.div)`
   ${mediaQueries(20)`
          padding: 1rem;
 
+         h3{
+          white-space: nowrap;
+          
+         }
 
-
+         h6{
+          font-size: 100px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          
+         }
   `};
 `;
 
@@ -208,8 +218,8 @@ const Intro = () => {
           <h1>Hi,</h1>
 
           <h3>I'm KMP</h3>
-
-          <h6>Think the Design, Design the thinking, I'm developer and design and Code beautiful websites and projects.</h6>
+          
+          <h6>Think the Design, Design the thinking. I'm Software Developer, Design and Code beautiful websites and projects.</h6>
         </Text>
       </SubBox>
       <SubBox>
