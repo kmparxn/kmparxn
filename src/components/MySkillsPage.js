@@ -186,7 +186,7 @@ const MySkillsPage = () => {
             <Description>
               <strong>Skills</strong> <br />
               <p>
-                C, C++, C#, Python, SQl, Node JS
+                C, C++, C#, Python, SQl, Node JS, Linux
               </p>
             </Description>
             <Description>
