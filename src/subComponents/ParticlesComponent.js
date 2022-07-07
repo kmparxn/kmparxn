@@ -1,19 +1,6 @@
-import styled from "styled-components";
-import ConfigDark from '../config/particlesjs-config-light.json';
-import ConfigLight from "../config/particlesjs-config.json";
-import particlesConfig from "../config/particles-config";
 // import Particles from "react-particles-js"
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles"
-
-const Box = styled.div`
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 0;
-`;
 
 const ParticlesComponent = () => {
     const particlesInit = async (main) => {

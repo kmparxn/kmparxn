@@ -219,7 +219,7 @@ const Intro = () => {
 
           <h3>I'm KMP</h3>
           
-          <h6>Think the Design, Design the thinking. I'm Software Developer, Design and Code beautiful websites and projects.</h6>
+          <h6>Think the Design, Design the thinking. I'm Software Developer, Design and Code beautiful Apps, websites and projects.</h6>
         </Text>
       </SubBox>
       <SubBox>

@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 import styled, { ThemeProvider } from "styled-components";
 import { lightTheme, mediaQueries } from "./Themes";
-import { Design, Develope } from "./AllSvgs";
+import { Develope } from "./AllSvgs";
 
 import LogoComponent from '../subComponents/LogoComponent'  
 import SocialIcons from '../subComponents/SocialIcons'
@@ -167,7 +167,7 @@ const MySkillsPage = () => {
             <Description>
               <strong>Skills</strong> <br />
               <p>
-                Html, Css, Js, React, Styled-Components, Framer Motion
+                Html, Css, Js, React, Three JS,  Styled-Components, Framer Motion
               </p>
             </Description>
             <Description>

@@ -5,27 +5,27 @@ export const Work = [
         description:"Updating My Portfolio with React JS using Styled-Components and framer-motion for awesome Animations",
         tags:["react","framer-motion","styled-components"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/kmparxn/kmparxn.git{--"
+        demo:"https://github.com/kmparxn/kmparxn.git",
+        github:"https://github.com/kmparxn/kmparxn.git"
     },
     {
         id:2,
-        name:"Landing Page",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["JS","styled-components"],
+        name:"Landing Page With JS, Three JS",
+        description:"A Landing Page build in JS With 3D models, Three JS",
+        tags:["JS","Three JS"],
         
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
+        demo:"https://landing-page-three-js.vercel.app/",
+        github:"https://github.com/kmparxn/LandingPage_ThreeJS.git"
         
     },
     {
         id:3,
         name:"Processing images with python and OpenCV",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
+        description:"Processing images with python and OpenCV",
         tags:["cv2","speech_recognition","pytesseract","googletrans"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        demo:"https://github.com/kmparxn/IMG-Proccesor.git",
+        github:"https://github.com/kmparxn/IMG-Proccesor.git"
     },
     {
         id:4,
@@ -57,5 +57,6 @@ export const Work = [
         
     },
     
-  
 ]
+
+export default Work;

@@ -2,7 +2,6 @@ import { motion } from 'framer-motion'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
-import ppp from '../assets/Images/myportafolioweb.png'
 
 const Box = styled(motion(NavLink))`
 width: calc(10rem + 15vw);
