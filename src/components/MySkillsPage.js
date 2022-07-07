@@ -109,6 +109,8 @@ const Description = styled.div`
   color: ${(props) => props.theme.text};
   font-size: calc(0.6em + 1vw);
   padding: 0.5rem 0;
+  margin-bottom: -0.6rem;
+  
   ${Main}:hover & {
     color: ${(props) => props.theme.body};
   }
