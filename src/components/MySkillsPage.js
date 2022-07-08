@@ -188,12 +188,12 @@ const MySkillsPage = () => {
             <Description>
               <strong>Skills</strong> <br />
               <p>
-                C, C++, C#, Python, SQl, Node JS, Linux
+                C, C++, C#, Python, SQl, Node JS, java, Linux
               </p>
             </Description>
             <Description>
               <strong>Tools</strong> <br />
-              <p>VScode, Github, Git etc.</p>
+              <p>VScode, Github, Git, Docker.</p>
             </Description>
           </Main>
           <BigTitle text="Skills" top="80%" right="30%" />
