@@ -8,7 +8,7 @@
 
 <!-- <p align="left"> <a href="https://twitter.com/code_bucks" target="blank"><img src="https://img.shields.io/twitter/follow/code_bucks?logo=twitter&style=for-the-badge" alt="code_bucks" /></a> </p> -->
 
-- ⚡ Portfolio Website: https://kmparxn.vercel.app/
+- ⚡ Portfolio Website with React JS: https://kmparxn.vercel.app/
 
 - 🔭 I’m currently Working and Learning
 
